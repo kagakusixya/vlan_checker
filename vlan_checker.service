@@ -1,0 +1,9 @@
+[Unit]
+Description = vlan_checker daemon
+
+[Service]
+ExecStart = /usr/bin/vlan_checker
+Restart = always
+Type = simple
+
+[Install]
